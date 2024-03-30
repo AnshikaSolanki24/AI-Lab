@@ -1,0 +1,109 @@
+@import url(https://db.onlinewebfonts.com/c/0fc59c9e01146174219b63566981f325?family=Le+Jour+Serif);
+@import url(https://db.onlinewebfonts.com/c/4249bbcb42a42840f81e0323e1d0a9b1?family=Hero-Light);
+
+.header{
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+#name{
+    font-family: 'Le Jour Serif', sans-serif;
+    font-size: 90px;
+    margin-bottom:0px;
+    margin-top: 30px;
+    display: grid;
+    line-height: 100px;
+    letter-spacing: 6px;
+}
+#sub{
+    font-family: 'Hero-Light', sans-serif;
+    margin: 0px;
+    font-size: 30px;
+    display: grid;
+    letter-spacing: 6px;
+}
+img{
+    display: grid;
+    align-items: left;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.divider{
+    text-align: center;
+    opacity:0.3;
+}
+
+.sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position:sticky;
+    top:0px;
+    background-color: ghostwhite;
+    padding: 30px; 
+}
+.head2{
+    font-family: 'Le Jour Serif';
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    line-height: 1px;
+    margin-left: 130px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.ved{
+    height: 100%;
+    margin-left : 0px;
+    width:fit-content;
+    opacity: 0.6;
+}
+
+.thir{
+    background-color: #000;
+    height: 622px;
+    margin-top: 40px;
+}
+.thir2{
+    margin-top: 70px;
+    margin-bottom: 150px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;    
+}
+.stats{
+    height: 350px;
+    width: 350px;
+    background-color: #ffd0c6;
+    border-radius: 2rem;
+    margin-top: 0px;
+    
+}
+.subh1{
+    font-family: 'Le Jour Serif';
+    font-size: 60px;
+    text-align : center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Hero-Light', sans-serif;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-right: 350px;
+    letter-spacing: 1px;
+}
+
+.fift{
+    background-color: #d6ceb1;
+    height: 300px;
+    margin-top:200px;
+}
